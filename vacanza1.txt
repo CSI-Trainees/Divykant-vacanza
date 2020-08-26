@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vacanza quiz</title>
+	<link rel="stylesheet" type="text/css" href="vacanzaa.css">
+</head>
+<body>
+	<header>
+	<nav>
+		<ul>
+			<li><a class="link" href="#"> Home </a></li>
+			<li><a class="link" href="#Rounds">Rounds </a></li>
+			<li><a class="link" href="quizzes.html">Quizzes</a></li>
+		</ul>
+	</nav>
+	<a class="csi" href="https://csiakgec.in/index">CSI</a>
+	<center>
+		<img class="rotate" src="img/logo.png" alt="logo of vacanza"><br>
+		<br>
+		<br>
+		<img class="vac" src="img/vac.svg" alt="vacanza"><br>
+		<br>
+		<br>
+		<br>
+		<a class="buttons" href="registration.html">Register</a>
+		<a class="buttons" href="quizzes.html">Quizzes</a>
+	</center>
+	</header>
+	<div id="Rounds">
+		<h2>ROUND 1</h2>
+		<hr><br>
+		<br>
+		<img class="vintage" src="img/vintage.jpg" alt="camera image">
+		Round 1 comprises of 4 domains from which participants have to select at least 2 domains and can choose maximum <br> of 4 domains for more points. The more domain you opt for , the more you score.<br>
+		<br>
+		 <h3>The four domains are:</h3>
+		Vintage Photography &nbsp | &nbsp Leaf Collage &nbsp | &nbsp Origami Art &nbsp | &nbsp Face Mask Art<br>
+		<br>
+		<button class="rules">RULES</button>
+	</div>
+	<div>
+		<h2>ROUND 2</h2>
+		<hr><br>
+		<br>
+		<img class="quiz" src="img/quiz.jpg" alt="image">
+		Test your knowledge just by answering some basic questions and gain points easily.Round 2 contains quiz questions<br> based on popular TV series and sports.<br>
+		<br>
+		<h3>The field are as follows:</h3>
+		Football &nbsp | &nbsp Stranger Things &nbsp | &nbsp Cricket &nbsp | &nbsp F.r.i.e.n.d.s<br>
+		<br>
+		<button class="rules">RULES</button>
+	</div>
+	<div>
+		<h2>ROUND 3</h2>
+		<hr><br>
+		<br>
+		<img class="joker" src="img/magic.jpg" alt="magic img">
+		The final round consists of making an interesting and astonishing magic trick video which might force people to say<br> “How did you do that!”. The best and the most surprising video will be selected as the winner.<br>
+		<br>
+		<button class="rules">RULES</button>
+	</div>
+	<footer>
+		<a class="utube" href="https://www.youtube.com/channel/UCrxGbgXygspoAIk5zhOClVQ">YOUTUBE</a>
+		<a class="fb" href="https://www.facebook.com/csi.akg/">FACEBOOK</a>
+		<a class="insta" href="https://www.instagram.com/csi_akgec/?hl=en">INSTAGRAM</a>
+		<p class="copyright">&#169 CSI-AKGEC 2018</p>
+	</footer>
+
+
+</body>
+  </html>
