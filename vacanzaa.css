@@ -167,7 +167,20 @@ padding-right:100px;
 footer{
 background-image: url('img/footer.png');
 width:100%;
-height:16vh;
+height:20vh;
+-webkit-animation: zoom 5s infinite;
+animation:zoom 5s infinite;
+}
+@keyframes zoom{
+0%{
+background-size:100%;
+}
+50%{
+background-size:105%;
+}
+100%{
+background-size:100%;
+}
 }
 .rules{
 border:solid 1px;
@@ -196,4 +209,46 @@ background-color:#ffffff;
 color:#ffffff;
 background-color:#008080;
 text-align:center;
+}
+.fb{
+width:2.5%;
+display:inline-block;
+opacity:1;
+margin:5px;
+-webkit-transition: -webkit-transform 0.5s;
+}
+.insta{
+width:3%;
+display:inline-block;
+opacity:1;
+margin:5px;
+-webkit-transition: -webkit-transform 0.5s;
+}
+.utube{
+width:2%;
+display:inline-block;
+opacity:1;
+margin:5px;
+-webkit-transition: -webkit-transform 0.5s;
+}
+.utube:hover{
+width:2.5%;
+-webkit-transform: rotate(40deg) translateZ(0);
+}
+.fb:hover{
+width:3%;
+-webkit-transform: rotate(40deg) translateZ(0);
+}
+.insta:hover{
+width:3.5%;
+-webkit-transform: rotate(40deg) translateZ(0);
+}
+.navdiv{
+top:0px;
+right:0px;
+width:9vh;
+height:9 vh;
+position:fixed;
+float:right;
+background:transparent;
 }
